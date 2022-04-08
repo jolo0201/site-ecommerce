@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Music-Ally</title>
+	<!--Bootstarp-->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/common.min.css">
+	<link rel="stylesheet" href="css/circle-menu.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		  <![endif]-->
+
+	</head>
+
+		<body class="no-touch" onload="myFunction()">
+			<div id="loader"></div>
+			<div id="myDiv" class="animate-bottom">
+			<!--Carousel-->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/bg3.jpg"/>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>ENJOY MUSIC!</h1>
+								<p>Eargasms all around!</p>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="img/carousel1.jpg"/>
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>GET THESE ITEMS</h1>
+							<p>FENDER X-Series Guitar and Amplifier</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="img/carousel4.jpg"/>
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>GET THIS LIMITED MIC</h1>
+							<p>PHONIC 9x DIGITAL RECORDING MIC</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar navbar-default navbar-fixed-top" id="topNav">
+			<div class="container">
+				<span class="navbar-brand navbar-left"><img src="img/logo.png" class="img-responsive" /></span>
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<div class="form-group navbar-right"><input type="text" class="form-control" id="usr" placeholder="Search"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!--Assitive Menu-->
+		<nav class="c-circle-menu js-menu">
+			<button class="c-circle-menu__toggle js-menu-toggle">
+				<span>Toggle</span>
+			</button>
+			<ul class="c-circle-menu__items">
+				<li class="c-circle-menu__item">
+					<a href="#slide1" class="c-circle-menu__link">
+						<img src="img/home.png" alt="">
+					</a>
+				</li>
+				<li class="c-circle-menu__item">
+					<a href="#slide2" class="c-circle-menu__link">
+						<img src="img/prod.png" alt="">
+					</a>
+				</li>
+				<li class="c-circle-menu__item">
+					<a href="#slide4" class="c-circle-menu__link">
+						<img src="img/review.png" alt="">
+					</a>
+				</li>
+			</ul>
+			<div class="c-circle-menu__mask js-menu-mask"></div>
+		</nav>
+
+		<!--CONTENTS-->
+		<div id="slide1">
+			<div class="container`">
+				<div class="row">
+					<div class="col-md">
+						<div id="description">
+							<h1>Music-Alley</h1>
+							<h3 class="quotes">
+								Online Music Instruments Shopping Website that enables you to choose freely and without hustle! Giving you the best quality of services and products. There are different varieties of musical instruments that you can choose and avail like, guitars, bass, keyboards, drums, microphones and more. We are also resellers of the highly approved brands in the world like Fender, Gibson, Mackie, Phonic and etc.
+								
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<div id="slide2">
+			<div class="container" >
+				<h1>Products</h1>
+				<div class="wrap">
+			    <!-- Define all of the tiles: -->
+			    <div class="box">
+			      <div class="boxInner">
+			        <img src="img/products/1.jpg"/>
+			        <div class="titleBox">Epiphone SE 4 &nbsp;&nbsp;&nbsp;
+			        	<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="box">
+			      <div class="boxInner">
+			        <img src="img/products/2.jpg" />
+			        <div class="titleBox">Gibson TE Black Limited Edition &nbsp;&nbsp;&nbsp;
+			        	<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="box">
+			      <div class="boxInner">
+			        <img src="img/products/3.jpg" />
+			        <div class="titleBox">Gibson SE Printed Guitar &nbsp;&nbsp;&nbsp;
+			        	<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="box">
+			      <div class="boxInner">
+			        <img src="img/products/4.jpg" />
+			        <div class="titleBox">Gibson SE 15 Printed Guitar &nbsp;&nbsp;&nbsp;
+			        	<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="box">
+			      <div class="boxInner">
+			        <img src="img/products/5.jpg" />
+			        <div class="titleBox">Crocus Hamer Guitar &nbsp;&nbsp;&nbsp;
+			        	<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<div id="slide4">
+			<div class="container" >
+				<div class="row">
+					<div class="col-md">
+					<div id="description">
+						<h1>Music-Alley</h1>
+						<h3 class="quotes">Online Music Instruments Shopping Website that enables you to choose freely and without hustle!</h3>
+					</div>
+					</div>
+				</div>
+			</div> 
+		</div> 
+
+
+
+		<!--Footer-->
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<p class="navbar-text pull-left">built@devguevarra</p>
+			</div>
+		</div>
+		</div>
+	</body>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.2.min.js"></script> 
+	<script src="js/myjs.js"></script>
+	<script src="js/customize.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/dist/circleMenu.min.js"></script>
+	<script type="text/JavaScript">
+		var el = '.js-menu';
+		var myMenu = cssCircleMenu(el);
+	</script>
+
+
+</html>
